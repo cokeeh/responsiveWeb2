@@ -1,0 +1,134 @@
+﻿@charset "utf-8";
+
+@media (max-width: 599px){
+
+		* {margin: 0; padding: 0; box-sizing: border-box;}
+		ul, li, ol {list-style: none; margin: 0; padding: 0;}
+		#wrap {width: 100%; height: auto; margin: 0 auto; }
+		.ham > img {width: 35px; height: 35px;}
+
+		
+
+		/*슬라이더*/
+		#slider {max-width: 100%; height: 500px; background-color: #1d1427; background-image: url(../img/slider.jpg); background-size: cover; background-position: center; display: flex; flex-direction: row; justify-content: center; align-items: center;}
+
+		/*슬라이더 타이틀 텍스트*/
+		#slider_title {width: 70%; height: 300px; display: flex; flex-direction: column; justify-content: center;}
+		#slider_title > h1 {color: #000; text-align: center; background-color: orange; width: 200px; height: 30px; margin: 0 0 20px 0; border-top-right-radius: 30px; border-bottom-left-radius: 30px; font-size:18px;}
+		#slider_title > span {color: #fff; display: block; font-weight: bold; font-size: 45px;}
+		#slider_title > button {width: 100px; height: 40px; background-color: #fff; border: 0; margin: 10% 0 0 0; font-size: 14px; }
+		#slider_title > button:hover {background-color: orange;}
+
+		/*전체섹션*/
+		section {width: 100%; height: auto; background-color: #1d1427;}
+
+		/*사이트 정책*/
+		#site_policy {width: 100%; height: 400px; margin: 0 auto; display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center;}
+		.Policy_box {  width: 50%; height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+		.Policy_box_last { width: 50%; height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+		.Policy_box > i {font-size: 2.5em; margin: 0 0 5% 0; color: #fff;}
+		.Policy_box > i:hover {color: orange;}
+		.Policy_textbox { width: 200px; height: 60px; text-align: center;}
+		.Policy_textbox > h4 {color: orange; font-size: 1.2em;}
+		.Policy_textbox > span {color: #c2c3c0;}
+		.Policy_box_last > i {font-size: 2.5em; margin: 0 0 5% 0; color: #fff;}
+		.Policy_box_last > i:hover {color: orange;}
+
+		/*인기게임,최신게임 배너 - 이미지*/
+		#popgame {width: 100%; height: auto; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+		.popgame_box {width: 97%; height: 250px; overflow: hidden; margin: 2%; }
+		.popgame_box > a > img {width: 100%; height: 100%; transform: scale(1); transition: all 0.5s;} 
+		.popgame_box > a > img:hover {transform: scale(1.2); cursor: pointer;}
+
+		/*인기,최신게임 배너 - 텍스트*/
+		.popgame_titlebox { width: 60%; height: 160px; position: relative; bottom: 215px; float: right; }
+		.popgame_titlebox > h1 {color: #000; text-align: center; background-color: orange; width: 155px; height: 30px; border-top-right-radius: 30px; border-bottom-left-radius: 30px; font-size: 1.2em; margin: 10px 0 10px 0;}
+		.popgame_titlebox > span {color: #fff; display: block; font-weight: bold; font-size: 1.8em;}
+
+		/*스페셜 카테고리*/
+		#special_category {width: 100%; height: 1900px;  margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
+		#special_category > h1 { color: #fff; width: 100%; text-align: center; font-size: 1.8em; margin: 10% 0 0 0;}
+		#special_category > h1:after {content: ""; display: block; width: 60px; border-bottom: 3px solid orange; margin: 20px auto;}
+
+		/*스페셜 카테고리 - 이미지*/
+		.cate_box {width: 85%; height: 530px; background-color: #fff; }
+		.cate_box > a > img {width: 100%; height: 100%;}
+		.cate_box > a > img:hover {opacity: 0.8;}
+
+		/*스페셜 카테고리 - 텍스트*/
+		.cate_textbox {width: 100%; height: 100px; background-color: rgba(61,52,69,0.6); position: relative; bottom: 104px; display: flex; flex-flow: column wrap;  justify-content: center; padding: 0 0 10px 10px;}
+		.cate_textbox > h1 > a {color: #fff; text-decoration: none;}
+		.cate_textbox > span > a {color:orange; text-decoration: none;}
+		.cate_textbox > span:after {content: ""; display: block; width: 70px; border-bottom: 3px solid orange; }
+		.cate_textbox:hover {background-color: #170e1f;}
+
+		/*상품 - deal, our 공통  */
+		.our_product {width: 100%; height: 970px;  margin: 0 auto; }
+		.our_product > h1 { font-size: 30px; color: #fff;  text-align: center; padding: 50px 0 0 0;}
+		.our_product > h1:after {content: ''; width: 60px; height: 3px; background: orange; margin: 20px auto 0; display: block;}
+
+		/*상품 - our 버튼*/
+		.buttonbox {width: 100%; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; margin: 15px 0 0 0;}
+		.buttonbox > button {width: 160px; height: 60px; font-size: 17px; background-color: #1d1427; color: #fff; border: 1px solid gray;}
+		.buttonbox > button:hover {color: orange;}
+
+		/*상품 - deal ul*/
+		.our_product > ul { display: flex; flex-direction: row; justify-content: center; margin: 15px 0 0 0; }
+		.our_product > ul > li {width: 160px; height: 60px; font-size: 17px; background-color: #1d1427; color: #fff; padding: 20px; border: 1px solid gray;  text-align: center;}
+		.our_product > ul > li > a {text-decoration: none; color: #fff;}
+		.our_product > ul > li > a:hover {color: orange;}
+
+		/*상품 - deal, our 공통 이미지 및 텍스트 박스 */
+		.products_box {width: 100%; height: auto;  margin: 30px 0 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
+		.products {width: 45%; height: auto; margin: 10px}
+		.products > a > img {max-width: 327px; width: 100%; display: block;}
+		.products_textbox {width: 100%; height: 100px; background-color: #170e1f;}
+		.products_textbox > .stars {color: gold; margin: 10px; display: inline-block; }
+		.products_textbox > .products_title > a {color: #fff; margin: 0 0 10px 10px; display: block; text-decoration: none;}
+		.products_textbox > .strike {color: gray; margin: 0 5px 0 10px; text-decoration: line-through;}
+		.products_textbox > .price {color: orange;}
+		.products_textbox > .price_notsale {color: orange; margin: 0 0 0 10px;}
+
+		/*인기게임,최신게임 배너 - 이미지*/
+		#discount {width: 100%; height: auto; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+		.discount_box {width: 97%; height: 250px; overflow: hidden; margin: 2%; }
+		.discount_box > a > img {width: 100%; height: 100%; transform: scale(1); transition: all 0.5s;} 
+		.discount_box > a > img:hover {transform: scale(1.2); cursor: pointer;}
+
+		/*인기,최신게임 배너 - 텍스트*/
+		.discount_titlebox { width: 60%; height: 160px; position: relative; bottom: 215px; float: right; }
+		.discount_titlebox > h1 {color: #000; text-align: center; background-color: orange; width: 155px; height: 30px; border-top-right-radius: 30px; border-bottom-left-radius: 30px; font-size: 1.2em; margin: 10px 0 10px 0;}
+		.discount_titlebox > span {color: #fff; display: block; font-weight: bold; font-size: 1.8em;}
+
+
+		/*하단 배너*/
+		#banner {width: 100%; height: 530px; margin: 0 auto; background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/banner1.jpg); background-size: cover; background-position: center; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; }
+		#banner_text {width: 100%; height: 280px; text-align: center; position: relative; bottom: 50px;}
+		#banner_text > img {border-radius: 50%; border: 2px solid orange; display: block; margin: 0 auto; }
+		.name { color: #fff; display: inline-block; margin: 35px 5px 0 0; font-weight: bold;}
+		.job {color: orange; font-size: 18px; font-weight: bold;}
+		#banner_text > p {margin: 35px 0 0 0; font-weight: bold; line-height: 30px; color: gray;}
+
+		/*블로그*/
+		#blog {width: 100%; height: 1500px;  margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; border-bottom: 1px solid #c2c3c0;}
+		#blog > h1 {color: #fff; width: 100%; text-align: center; font-size: 30px;  margin: 40px 0 0 0;}
+		#blog > h1:after {content: ""; display: block; width: 60px; border-bottom: 3px solid orange; margin: 20px auto;}
+
+		/*블로그 - 이미지*/
+		.blog_box {width: 90%; height: 280px; background-color: white; position: relative; bottom: 100px;}
+		.blog_box > a > img {width: 100%; height: 100%;}
+		.blog_box > a > img:hover {opacity: 0.8;}
+
+		/*블로그 - 텍스트*/
+		.blog_textbox {width: 450px; height: 80px;}
+		.blog_textbox > i {color: orange; margin: 10px 0 10px 2px;}
+		.blog_textbox > span {color: #c2c3c0;}
+		.blog_textbox > .day {margin: 0 10px 0 0;}
+		.blog_textbox > h4 > a {color: #fff; text-decoration: none; margin: 0 0 0 3px;}
+
+		/*팀 로고*/
+		#teamlogo {width: 1430px; height: 230px;  margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; display: none;}
+
+		
+
+		}

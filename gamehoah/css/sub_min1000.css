@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+
+		@media (min-width: 1000px){
+
+		* {margin: 0; padding: 0; box-sizing: border-box;}
+		ul, li, ol {list-style: none; margin: 0; padding: 0;}
+		#wrap {width: 100%; height: auto; margin: 0 auto;  }
+		.ham > img {width: 35px; height: 35px;}
+		
+		/*전체 섹션*/
+		section {width: 100%; height: auto; background-color: #1d1427;}
+		section > #contents {width: 80%; height: auto;  margin: 0 auto; display: flex; flex-direction: column; justify-content: space-between;  }
+		#contents > .contents_box {width: 90%; height: auto;  margin: 0 auto;}
+
+		
+		}

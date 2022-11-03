@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+
+@media (min-width: 1000px){
+
+	/*헤더*/
+		header {width: 100%; height: 100px; background-color: #1d1427;}
+		#main_header {width: 100%; height: auto; margin: 0 auto; padding: 30px 0 0 0; display: flex; justify-content: space-between; align-items: center;}
+
+		.ham {display: none;}
+
+		/*네비*/
+		nav > ul {display: flex; flex-direction: row;}
+		nav > ul > li {position: relative; bottom: 26px; }
+		nav > ul > li > a {font-size: 20px; text-decoration: none; color: #fff; line-height: 45px; padding: 0 20px; }
+		nav > ul > li > a:hover {background-color: #1d1427; color: orange;}
+		.a {display: block;}
+		.b ul {display: flex;  }
+		.b ul li a {margin: 0 30px 0 30px; font-size: 20px; text-decoration: none; color: #fff; }
+		.b ul li a:hover {color: orange;}
+		.b > .icons > li > a {margin: 0 17px 0 17px; font-size: 20px; text-decoration: none; color: #fff;}
+		.Blog > a {color: orange;}
+
+	
+
+}

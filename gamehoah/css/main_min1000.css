@@ -1,0 +1,10 @@
+﻿@charset "utf-8";
+
+		@media (min-width: 1000px){
+
+		* {margin: 0; padding: 0; box-sizing: border-box;}
+		ul, li, ol {list-style: none; margin: 0; padding: 0;}
+		#wrap {width: 100%; height: auto; margin: 0 auto;  }
+		.ham > img {width: 35px; height: 35px;}
+		
+		}

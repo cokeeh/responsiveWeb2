@@ -1,0 +1,71 @@
+﻿@charset "utf-8";
+
+@media (max-width: 599px){
+
+	/*헤더*/
+		header {width: 100%; height: 100px; background-color: #1d1427;}
+		#main_header {width: 100%; height: 100px; margin: 0 auto; padding: 30px 0 0 0;}
+		#main_header > #small {display: flex; flex-flow: row wrap; justify-content: space-between; align-items: center; }
+
+		/*네비*/
+		nav > ul {display: flex; flex-direction: column; }
+		nav > ul > li > a {font-size: 20px; text-decoration: none; color: #fff; background-color: #1d1427; display: block; line-height: 45px; padding: 5px 0 5px 10px; position: relative; top: 26px;}
+		.a {display: none;}
+		.b ul {display: flex; display: none;}
+		.b ul li a {margin: 0 30px 0 30px; font-size: 20px; text-decoration: none; color: #fff; }
+		.b > .icons > li > a {margin: 0 17px 0 17px; font-size: 20px; text-decoration: none; color: #fff;}
+		nav ul li a:hover {color: #fff; background-color: orange;}
+		.ham {cursor: pointer;}
+		.home:hover {color: orange;}
+
+	/*푸터*/
+		footer {width: 100%; height: auto; background-color: #170e1f; background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../img/footer.jpg); background-size: cover; background-position: center; }
+		#footerbox {width: 100%; height: 505px;  margin: 0 auto;  display: flex; flex-flow: row wrap; align-items: center; justify-content: center;}
+		.minibox1 {width:350px ; height: auto;  margin: 5px; display: flex; flex-flow: row wrap; display: none;}
+		.minibox1 > h2 {color: #fff;}
+		.minibox2 {width:350px ; height: auto;  margin: 5px; display: flex; flex-flow: row wrap; display: none;}
+		.minibox2 > h2 {color: #fff;}
+		.minibox3 {width:350px ; height: auto;  margin: 5px; display: flex; flex-flow: row wrap; display: none;}
+		.minibox3 > h2 {color: #fff;}
+		.minibox4 {width:350px ; height: auto;  margin: 5px; display: flex; flex-flow: row wrap;}
+		.minibox4 > h2 {color: #fff;}
+
+		/*주소*/
+		.Address_textbox {width: 350px; height: 90px;  color: #c2c3c0; display: flex; flex-direction: row; align-items: center; padding: 0 3px 0 0;}
+		.Address_textbox > i { color: orange; font-size: 17px; margin: 0 10px 0 0; position: relative; bottom: 20px; }
+		.Address_textbox2 {width: 350px; height: 50px;  display: flex; flex-flow: row wrap; align-items: center; color: #c2c3c0; }
+		.Address_textbox2 > i { color: orange; font-size: 17px; margin: 0 10px 0 0; }
+		.Address_textbox3 {width: 350px; height: 50px; display: flex; flex-flow: row wrap; align-items: center; color: #c2c3c0; }
+		.Address_textbox3 > i { color: orange; font-size: 17px; margin: 0 10px 0 0; }
+
+		/*인포*/
+		.info_textbox {width: 350px; height: 220px;  display: flex; flex-direction: column; justify-content: space-around; color: #c2c3c0;}
+		.info_textbox > a {text-decoration: none; color: #c2c3c0;}
+		.info_textbox > a > span:hover {color: orange;}
+
+		/*기타*/
+		.Extras_textbox {width: 350px; height: 220px;  display: flex; flex-direction: column; justify-content: space-around; }
+		.Extras_textbox > a {text-decoration: none; color: #c2c3c0;}
+		.Extras_textbox > a > span:hover {color: orange;}
+
+		/*뉴스레터*/
+		.Newsletter_textbox {width: 350px; height: 155px;  display: flex; flex-direction: row; flex-wrap: wrap; align-items: center;}
+
+		/*뉴스레터 - 메일 창*/
+		#letter {width: 100%; height: 50px;   display: flex; border-radius: 20px; overflow: hidden;}
+		.Newsletter_textbox > p {color: #c2c3c0;}
+		.letter_bar {width: 75%; height: 100%;  overflow: hidden; }
+		.letter_bar > input {width: 100%; height: 100%; outline:none; border: 0; }
+		.letter_button {width: 25%; height: 100%; background-color: #170e1f; border: 0; font-size: 30px; color: orange; }
+		.letter_button:hover {color: skyblue;}
+
+		/*뉴스레터 - 아이콘*/
+		.Newsletter_iconbox {width: 350px; height: 50px;  display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center;}
+		.Newsletter_iconbox > a > i {color: orange; font-size: 25px;} 
+		.Newsletter_iconbox > a > i:hover {color: skyblue;}
+
+
+	
+
+
+}
